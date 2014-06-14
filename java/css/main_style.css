@@ -1,0 +1,37 @@
+.block1 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+}
+.opera, .mozilla,.chrome, .safari,.yandex {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 5px -10px;
+    text-align: center;
+}
+.opera {
+    background-image: url("../img/opera.png");
+}
+.mozilla {
+    background-image: url("../img/firefox.png");
+}
+.chrome {
+    background-image: url("../img/chrome.png");
+}
+.safari {
+    background-image: url("../img/safari.png");
+}
+.yandex {
+    background-image: url("../img/ya.png");
+}
+
+.browserName {
+    position: absolute;
+    bottom: -20px;
+}
